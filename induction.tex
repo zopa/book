@@ -998,7 +998,7 @@ In the case of vectors, the induction principle states that given a type family 
 there exists a function $f:\prd{n:\nat}{\ell:\vect n A} C(n,\ell)$ such that
 \begin{align*}
   f(0,\nil) &\jdeq c_\nil\\
-  f(\suc(n),\cons(a,\ell)) &\jdeq c_\cons(n,a,\ell,f(\ell)).
+  f(\suc(n),\cons(a,\ell)) &\jdeq c_\cons(n,a,\ell,f(n,\ell)).
 \end{align*}
 
 \index{predicate!inductive}%
